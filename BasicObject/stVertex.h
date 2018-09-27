@@ -1,0 +1,54 @@
+#pragma once
+#include "../stdafx.h"
+
+struct ST_PC_VERTEX
+{
+	D3DXVECTOR3 p;
+	DWORD c;
+	enum { FVF = D3DFVF_XYZ | D3DFVF_DIFFUSE };
+
+	ST_PC_VERTEX()
+	{
+		c = 0xff000000;
+	}
+};
+
+struct ST_PT_VERTEX
+{
+	D3DXVECTOR3 p;
+	D3DXVECTOR2 t;
+
+	enum { FVF = D3DFVF_XYZ | D3DFVF_TEX1 };
+
+	ST_PT_VERTEX() {}
+	ST_PT_VERTEX(D3DXVECTOR3 p, D3DXVECTOR2 t)
+		:p(p), t(t)
+	{}
+};
+
+struct ST_PN_VERTEX
+{
+	D3DXVECTOR3 p;
+	D3DXVECTOR3 n;
+
+	enum { FVF = D3DFVF_XYZ | D3DFVF_NORMAL };
+
+	ST_PN_VERTEX() {}
+	ST_PN_VERTEX(D3DXVECTOR3 p, D3DXVECTOR3 n)
+		:p(p), n(n)
+	{}
+};
+
+struct ST_PNT_VERTEX
+{
+	D3DXVECTOR3 p;
+	D3DXVECTOR3 n;
+	D3DXVECTOR2 t;
+
+	enum { FVF = D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_TEX1 };
+
+	ST_PNT_VERTEX() {}
+	ST_PNT_VERTEX(D3DXVECTOR3 p, D3DXVECTOR3 n, D3DXVECTOR3 t)
+		:p(p), n(n), t(t)
+	{}
+};

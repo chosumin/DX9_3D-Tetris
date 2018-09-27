@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cMainGame.cpp" />
+    <ClCompile Include="D3DX.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="System\cCamera.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\cDeviceManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicObject\cCubePC.cpp">
+      <Filter>BasicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\cGrid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\cPyramid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicObject\cCubePNT.cpp">
+      <Filter>BasicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicObject\cCubeNode.cpp">
+      <Filter>BasicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\cCubeMan.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\cBackground.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\cCommand.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\cPlayer.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="System\cKeyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\cMouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\cArray.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\cRectBlock.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\cBlockFactory.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cMainGame.h" />
+    <ClInclude Include="D3DX.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="System\cCamera.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\cDeviceManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicObject\cCubePC.h">
+      <Filter>BasicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\cGrid.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\cPyramid.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicObject\cCubePNT.h">
+      <Filter>BasicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicObject\cCubeNode.h">
+      <Filter>BasicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\cCubeMan.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\cBackground.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\cCommand.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\cPlayer.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="System\cKeyboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\cMouse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicObject\stVertex.h">
+      <Filter>BasicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\cArray.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\cRectBlock.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\cBlockFactory.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3DX.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D3DX.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{129b175c-29c3-4b40-b5d5-2d4e1fb9c253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{28a5e69f-1860-463c-aa00-c1905b0de040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicObject">
+      <UniqueIdentifier>{582056b3-a682-4a30-bbdc-1e3874200208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid">
+      <UniqueIdentifier>{2b32f69d-f669-4828-a4a3-02fcea5f704f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
